@@ -1,0 +1,19 @@
+
+spring:
+  mail:
+    host: smtp.sina.com
+    username: peakmail_test@sina.com
+    password: peakmail_test
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  datasource:
+    url: jdbc:mysql://localhost:9234/test?characterEncoding=utf-8&useSSL=true&autoReconnect=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
