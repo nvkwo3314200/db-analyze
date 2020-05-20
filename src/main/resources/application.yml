@@ -2,8 +2,8 @@
 spring:
   mail:
     host: smtp.sina.com
-    username: peakmail_test@sina.com
-    password: peakmail_test
+    username: localhost@sina.com
+    password: localhost
     default-encoding: UTF-8
     properties:
       mail:
