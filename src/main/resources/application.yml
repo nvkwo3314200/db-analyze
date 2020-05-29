@@ -12,6 +12,7 @@ spring:
           starttls:
             enable: true
             required: true
+
   datasource:
     url: jdbc:mysql://localhost:9234/test?characterEncoding=utf-8&useSSL=true&autoReconnect=true
     username: root
